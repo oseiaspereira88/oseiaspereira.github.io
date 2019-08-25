@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Sverse Web</title>
+
+</head>
+<body background="imgs/bg12.jpg"
+      style="background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+
+<div class="container-fluid">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark"
+         style="background-color: #58aaff; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; border: 0; border-bottom: 2px; border-style: solid; border-color: rgba(32,46,98,0.91);">
+        <a class="navbar-brand" href="SobreMim.html">
+            <img style="position: absolute; top: 0px; left: 18px;" src="SverseLogo/sv-logo%201.png" width="54px"
+                 height="54px"/>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsverse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsverse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="SobreMim.html" title="Sobre Mim"><i class="fas fa-home"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mochila.html"><i class="fas fa-business-time"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mural.html"><i class="fas fa-edit"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href=""><i class="fas fa-bell"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href=""><i class="fas fa-question-circle"></i></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navdropdown" role="button" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navdropdown"
+                         style="margin-top: 10px;">
+                        <h6 class="dropdown-header">Suas Opções</h6>
+                        <a class="dropdown-item" href="#">Configurações</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Sair</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container px-5">
+
+        <div class="row" style="min-height: 38vh;">
+            <div class="col-3" id="profile-cover" style="min-width:100%; min-height: 100%;">
+                <div class="card text-white bg-secondary mb-3 border-0"
+                     style="background-image: url(imgs/cover.png); background-size: cover; background-repeat: no-repeat; border-top-left-radius: 0; border-top-right-radius: 0; min-width:100%; min-height: 100%;">
+                    <div class="card-body text-center">
+                        <img id="userProfileImg" class="rounded-circle" src="imgs/perfil.jpg" height="140px" width="140px"
+                             style="position: absolute; left: 16px; bottom: 16px; border: solid 4px; ">
+                        <span id="userNamePerfil" class="navbar-brand px-sm-4" href="#"
+                              style="position:absolute; left: 138px; bottom: 54px;">Oséias Pereira</span>
+                        <style>
+                            @media screen and (max-width: 820px) {
+                                #userNamePerfil {
+                                    margin-left: 16px;
+                                }
+                                #userProfileImg{
+                                    top: 32px;
+                                }
+                            }
+                        </style>
+                    </div>
+
+                    <div class="card-footer p-0 bg-dark">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                            <div class="btn-group align-bottom p-0 m-0 col-lg-8 col-md-8 col-sm-12 px-3" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-dark py-0 m-0 active">Explorar</button>
+                                <button type="button" class="btn btn-dark py-0 m-0">Amigos</button>
+                                <button type="button" class="btn btn-dark py-0 m-0">Solicitações</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="min-height: 90vh;">
+
+            <div class="col-sm-12 col-md-4" id="layout1" style="padding: 16px; background-color: rgba(0,92,191,0)">
+                <div class="card text-white bg-secondary mb-3" style="min-height: 38vh;">
+                    <div class="card-header"><i class="fas fa-user" style="margin-right: 8px;"></i> Infomações Pessoais
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Infomações Pessoais</h4>
+                        <p>Infomações Pessoais</p>
+                    </div>
+                </div>
+
+                <div class="card text-white mb-3" style="background-color: #58AAFF;">
+                    <div class="card-header"><i class="fas fa-users" style="margin-right: 8px;"></i> Containers</div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Grupos</h4>
+                        <p>Fulano ainda não participa de nenhum container.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-8" id="mainLayout" style="padding: 16px; background-color: rgba(0,92,191,0)">
+                <div class="card bg-light mb-3" style="margin-bottom: 16px;">
+                    <div class="card-header">Quadro de Boas-Vindas</div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Seja Bem-Vindo</h4>
+                        <p class="card-text">Estamos felizes em poder ajudar em sua jornada em direção ao futuro,
+                            approveite a experiência!</p>
+                    </div>
+                </div>
+                <div class="card bg-light mb-3" style="margin-bottom: 16px;">
+                    <div class="card-header">Quadro de Boas-Vindas</div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Seja Bem-Vindo</h4>
+                        <p class="card-text">Estamos felizes em poder ajudar em sua jornada em direção ao futuro,
+                            approveite a experiência!</p>
+                    </div>
+                </div>
+                <div class="card bg-light mb-3" style="margin-bottom: 16px;">
+                    <div class="card-header">Quadro de Boas-Vindas</div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Seja Bem-Vindo</h4>
+                        <p class="card-text">Estamos felizes em poder ajudar em sua jornada em direção ao futuro,
+                            approveite a experiência!</p>
+                    </div>
+                </div>
+                <div class="card bg-light mb-3" style="margin-bottom: 16px;">
+                    <div class="card-header">Quadro de Boas-Vindas</div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Seja Bem-Vindo</h4>
+                        <p class="card-text">Estamos felizes em poder ajudar em sua jornada em direção ao futuro,
+                            approveite a experiência!</p>
+                    </div>
+                </div>
+                <div class="card bg-light mb-3" style="margin-bottom: 16px;">
+                    <div class="card-header">Quadro de Boas-Vindas</div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Seja Bem-Vindo</h4>
+                        <p class="card-text">Estamos felizes em poder ajudar em sua jornada em direção ao futuro,
+                            approveite a experiência!</p>
+                    </div>
+                </div>
+                <div class="card bg-light mb-3" style="margin-bottom: 16px;">
+                    <div class="card-header">Quadro de Boas-Vindas</div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Seja Bem-Vindo</h4>
+                        <p class="card-text">Estamos felizes em poder ajudar em sua jornada em direção ao futuro,
+                            approveite a experiência!</p>
+                    </div>
+                </div>
+                <div class="card bg-light mb-3" style="margin-bottom: 16px;">
+                    <div class="card-header">Quadro de Boas-Vindas</div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Seja Bem-Vindo</h4>
+                        <p class="card-text">Estamos felizes em poder ajudar em sua jornada em direção ao futuro,
+                            approveite a experiência!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery-slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/fontawesome.min.js"></script>
+</body>
+</html>
