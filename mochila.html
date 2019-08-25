@@ -99,19 +99,22 @@
         <div class="collapse navbar-collapse" id="navbarsverse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="SobreMim.html"><i class="fas fa-home"></i></a>
+                    <a class="nav-link" href="SobreMim.html"><i class="fas fa-home"></i><span class="navTitle">Sobre Mim</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="mochila.html"><i class="fas fa-business-time"></i></a>
+                    <a class="nav-link" href="mochila.html"><i class="fas fa-business-time"></i><span class="navTitle">Habilidades</span></a>
+					<!--Aqui será um link para uma pág. com minhas habilidades separadas por suas respectivas áreas.-->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="mural.html"><i class="fas fa-edit"></i></a>
+                    <a class="nav-link" href="mural.html"><i class="fas fa-edit"></i><span class="navTitle">Fale Comigo</span></a>
+					<!--Aqui será um link para uma pág. com um form de email-submit.-->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href=""><i class="fas fa-bell"></i></a>
+                    <a class="nav-link" href=""><i class="fas fa-bell"></i><span class="navTitle">Me Acompanhe</span></a>
+					<!--Aqui será um link para uma pág. com meus projetos, pesquisas, notícias e hobbies, bem como planejamentos futuros.-->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href=""><i class="fas fa-question-circle"></i></a>
+                    <a class="nav-link" href=""><i class="fas fa-question-circle"></i><span class="navTitle">Ajuda</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navdropdown" role="button" data-toggle="dropdown"
@@ -125,7 +128,7 @@
                     </div>
                 </li>
             </ul>
-        </div>
+        </div>	
     </nav>
 
     <!--Mochila-->
@@ -258,6 +261,22 @@
 </div>
 </div>
 
+<style type="text/css">
+
+*{margin:0;padding:0;border:0;list-style:none;outline:none;} /* Fazendo reset */
+body{font:normal 14px Tahoma, Arial, sans-serif;color:#333;} /* Fonte normal tamanho 14 tenho Tahoma como fonte primaria */
+a{text-decoration:none;} /* Links sem efeitos */
+
+.navTitle {
+  font-size:0;
+  transition: all 600ms;
+}
+
+#navbarsverse ul li a:hover .navTitle {
+	font-size:14px;
+	margin-left:14px;
+}
+</style>
 
 <script src="js/jquery-slim.min.js"></script>
 <script src="js/popper.min.js"></script>
